@@ -77,11 +77,15 @@ span {
 .about-content h2 {
     font-size: 40px;
     font-weight: 400;
+    color: #707070;
 }
 
 .about-content p {
     width: 65%;
     padding-bottom: 40px;
+    color: #191a1f;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .food-services {
@@ -104,4 +108,105 @@ span {
     font-size: 20px;
     font-weight: 400;
     padding: 0px 140px;
+}
+
+.food-title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.food-title h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #676767;
+}
+
+.food-title p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #232525;
+    width: 80%;
+    padding: 0px 125px;
+}
+
+.food-blog {
+    display: flex;
+}
+
+.food-blog-item {
+    width: 30%;
+    border-radius: 20px;
+    padding: 20px;
+    border-radius: 3;
+    background-color: white;
+    margin: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+.food-blog-item img {
+    width: 340px;
+}
+
+.food-blog-item h4 {
+    color: #18191e;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.food-blog-item p {
+    font-size: 16px;
+    color: #18191e;
+}
+
+.food-viewers {
+    margin-top: 90px;
+    width: 96%;
+    border-radius: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-bottom: 200px;
+}
+
+.food-viewers-item {
+    display: table-cell;
+    width: 44%;
+    padding: 20px;
+}
+
+.food-gallery {
+    margin-bottom: 150px;
+}
+
+.food-gallery h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 70px;
+}
+
+.food-image {
+    margin-left: 130px;
+}
+
+.food-image img {
+    width: 20%;
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #0b0e17;
+    padding-bottom: 60px;
+}
+
+footer h2 {
+    padding: 20px;
+    color: #fd974d;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+address {
+    color: #ffffff;
+    font-size: 20px;
 }
