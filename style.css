@@ -83,3 +83,25 @@ span {
     width: 65%;
     padding-bottom: 40px;
 }
+
+.food-services {
+    background-image: url(images/Project\ Cover4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.service-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.service-content p {
+    color: lightsalmon;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 140px;
+}
